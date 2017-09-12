@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>corsify.me</title>
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400&text=corsify.me|Open+Sans:500,800&subset=latin" rel="stylesheet">
+	<style type="text/css">
+		*{box-sizing:border-box}html{background:#eb3201;color:rgba(254,255,251,.97);font-family:Open Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:26px}body{display:flex;align-items:center;margin-top:11.375rem;min-height:100vh;font-size:1rem;line-height:1.625rem}a,a:link,a:visited{color:rgba(254,255,251,.97)}a:active,a:focus,a:hover{color:rgba(254,255,251,.75)}.corsify--container{max-width:550px;padding:1.625rem;width:100%}.corsify-animation--intro{transition:.75s ease-out}.corsify-animation--intro-start{transform:translate3d(0,25px,0);opacity:0!important}.corsify-style--transparent{opacity:.5}.corsify-text--headline{font-size:3.75rem;line-height:4.875rem;margin-top:1.625rem;margin-bottom:1.625rem;font-weight:400;letter-spacing:-.5px;font-family:Cabin,sans-serif}.corsify-text--subline{margin-bottom:4.875rem;letter-spacing:0;font-size:1.5625rem;line-height:1.625rem;margin-top:1.625rem}.corsify-text--subline-target{opacity:1}.corsify-text--minor-headline{font-size:1rem;letter-spacing:1.5px;line-height:1.625rem;margin-top:1.625rem;font-weight:800}.corsify-text--copy{letter-spacing:0}.corsify-text--copy,.corsify-text--list{margin-bottom:1.625rem;margin-top:0}
+	</style>
+</head>
+<body>
+	<a href="https://github.com/martinkr/corsify"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"></a>
+	<article class="corsify--container">
+		<h1 class="corsify-text--headline corsify-animation--intro corsify-animation--intro-start ">corsify<span class="corsify-style--transparent">.me</span></h1>
+		<aside class="corsify-text--subline corsify-animation--intro corsify-animation--intro-start">http://corsify.me/<span class="corsify-style--transparent">http://shaky-library.surge.sh</span></aside>
+		<h2 class="corsify-text--minor-headline corsify-animation--intro corsify-animation--intro-start">CORS-i-fy? What is this all about?</h2>
+		<blockquote class="corsify-text--copy corsify-animation--intro corsify-animation--intro-start"><i>Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources (e.g. fonts) on a web page to be requested from another domain outside the domain from which the resource originated.</i></blockquote>
+		<h2 class="corsify-text--minor-headline corsify-animation--intro corsify-animation--intro-start">Wait… What?!</h2>
+		<p class="corsify-text--copy corsify-animation--intro corsify-animation--intro-start">Your script from http://rebel-mother.surge.sh makes an AJAX-request to http://shaky-library.surge.sh. <br/>Instead of the response, your see the infamous <i>"XMLHttpRequest cannot load http://shaky-library.surge.sh. Origin http://rebel-mother.surge.sh is not allowed by Access-Control-Allow-Origin."</i> error message.</p>
+		<h2 class="corsify-text--minor-headline corsify-animation--intro corsify-animation--intro-start">corsify to the rescue!</h2>
+		<p class="corsify-text--copy corsify-animation--intro corsify-animation--intro-start ">Change your AJAX-Request from http://shaky-library.surge.sh to http://corsify.me/http://shaky-library.surge.sh.<br/>Et voilá: no more errors.</p>
+		<h2 class="corsify-text--minor-headline corsify-animation--intro corsify-animation--intro-start">So simple?</h2>
+		<p class="corsify-text--copy corsify-animation--intro corsify-animation--intro-start ">For now: yes.<br/>But please, talk to the http://shaky-library.surge.sh's admin. I doubt you want to route all your requests through a third-party-service. Privacy and security, you know…</p>
+		<h2 class="corsify-text--minor-headline corsify-animation--intro corsify-animation--intro-start">Roll our own!</h2>
+		<p class="corsify-text--copy corsify-animation--intro corsify-animation--intro-start ">You can just take the code from <a href="https://github.com/martinkr/corsify">github</a> and fire up your own local instance.</p>
+		<h2 class="corsify-text--minor-headline corsify-animation--intro corsify-animation--intro-start">Resources</h2>
+		<ul class="corsify-text--list corsify-animation--intro corsify-animation--intro-start">
+			<li><a href="https://enable-cors.org/">https://enable-cors.org/</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing">https://en.wikipedia.org/wiki/Cross-origin_resource_sharing</a></li>
+			<li><a href="https://www.html5rocks.com/en/tutorials/cors/">https://www.html5rocks.com/en/tutorials/cors/</a></li>
+		</ul>
+	</article>
+	<script>
+		window.setTimeout(function () {document.querySelectorAll(".corsify-animation--intro-start").forEach(function (node) {node.classList.remove("corsify-animation--intro-start");})},25)
+	</script>
+</body>
+</html>
