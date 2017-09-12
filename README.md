@@ -1,6 +1,10 @@
 # corsify [![Build Status](https://travis-ci.org/martinkr/corsify.svg?branch=master)](https://travis-ci.org/martinkr/corsify)
 A tiny transparent proxy. The benefit: it adds the CORS-headers! Why? It prevents Cross Domain Errors.
 
+Try it: [http://corsify.me](http://corsify.me) 
+- Without CORS-headers: [http://shaky-library.surge.sh](http://shaky-library.surge.sh)
+- With CORS-headers aka "corsyfied": [http://corsify.me/http://shaky-library.surge.sh](http://corsify.me/http://shaky-library.surge.sh)
+
 ## CORS-i-fy? What is this all about?
  > Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources (e.g. fonts) on a web page to be requested from another domain outside the domain from which the resource originated. [https://en.wikipedia.org/wiki/Cross-origin_resource_sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
 
