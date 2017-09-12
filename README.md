@@ -1,4 +1,4 @@
-# corsify[![Build Status](https://travis-ci.org/martinkr/corsify.svg?branch=master)](https://travis-ci.org/martinkr/corsify)
+# corsify [![Build Status](https://travis-ci.org/martinkr/corsify.svg?branch=master)](https://travis-ci.org/martinkr/corsify)
 A tiny transparent proxy. The benefit: it adds the CORS-headers! Why? It prevents Cross Domain Errors.
 
 ## CORS-i-fy? What is this all about?
