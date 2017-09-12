@@ -12,6 +12,7 @@
     "dev": "NODE_ENV=development ./node_modules/.bin/nodemon -e css,js,mustache ./server/main.js",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha && ./node_modules/.bin/istanbul check-coverage --statement 100 --branch 100 --function 100 "
   },
+  "engines" : { "node" : "^8.4.0", "yarn":"latest" },
   "repository": {
     "type": "git",
     "url": "https://github.com/martinkr/corsify"
