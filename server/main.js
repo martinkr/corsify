@@ -22,8 +22,11 @@
 // change if you like
 // const port = 3000;
 // heroku :(
-/* istanbul ignore else  */
-const port = process.env.PORT || 3000;
+const port =
+	/* istanbul ignore if  */
+	process.env.PORT ||
+	/* istanbul ignore else  */
+	3000;
 
 const express = require("express")
 const app = express();
