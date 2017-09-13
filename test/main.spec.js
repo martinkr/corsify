@@ -82,7 +82,7 @@ describe('the corsify service', () => {
 					}
 				})
 				.end(done);
-		});
+		}).timeout(5000);
 
 	});
 

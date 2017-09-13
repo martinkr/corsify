@@ -79,6 +79,10 @@ app.use("/", (req, res) => {
 	// set CORS headers
 	cors(req, res);
 
+	// if (req.url === "supertest") {
+	// 	return res.send("ok");
+	// }
+
 	// no location
 	if (!req.url || req.url === "/") {
 		return renderSplash(res);
