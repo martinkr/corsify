@@ -1,6 +1,6 @@
 {
   "name": "corsify",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A tiny transparent proxy. The benefit: it adds the CORS-headers! Why? It prevents Cross Domain Errors.",
   "main": "./server/main.js",
   "scripts": {
