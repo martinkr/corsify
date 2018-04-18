@@ -45,7 +45,7 @@ Requires ```nodejs```. Recomended: ```v8.4.0```, but it might work with older ve
 - CSS 3 piped through ```postcss-cli v4.1.1``` with ```cssnano v3.10.0``` and ```cssnano-preset-advanced v4.0.0-rc.2```,
 - Running on ```express`v4.14.1```
 - With ```forever v0.15.3```
-- And gzip ```compression v1.7.0````
+- And gzip ```compression v1.7.0```
 - 100% code coverage using ```mocha v3.5.2```, ```chai v4.1.2```, ```supertest v3.0.0``` and ```istanbul v0.4.5```,
 
 ## Resources
