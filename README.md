@@ -1,7 +1,7 @@
 # corsify [![Build Status](https://travis-ci.org/martinkr/corsify.svg?branch=master)](https://travis-ci.org/martinkr/corsify)
 A tiny transparent proxy. The benefit: it adds the CORS-headers! Why? It prevents Cross Domain Errors.
 
-Try it: [http://corsify.me](http://corsify.me) 
+Try it: [http://corsify.me](http://corsify.me)
 - Without CORS-headers: [http://shaky-library.surge.sh](http://shaky-library.surge.sh)
 - With CORS-headers aka "corsyfied": [http://corsify.me/http://shaky-library.surge.sh](http://corsify.me/http://shaky-library.surge.sh)
 
@@ -46,7 +46,7 @@ Requires ```nodejs```. Recomended: ```v8.4.0```, but it might work with older ve
 - Running on ```express`v4.14.1```
 - With ```forever v0.15.3```
 - And gzip ```compression v1.7.0```
-- 100% code coverage using ```mocha v3.5.2```, ```chai v4.1.2```, ```supertest v3.0.0``` and ```istanbul v0.4.5```,
+- 100% code coverage using ```mocha v3.5.2```, ```chai v4.1.2```, ```supertest v3.0.0``` and ``` "nyc 11.2.1"```,
 
 ## Resources
 - [https://enable-cors.org](https://enable-cors.org)
@@ -56,5 +56,5 @@ Requires ```nodejs```. Recomended: ```v8.4.0```, but it might work with older ve
 ## License
 Licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
-Copyright (c) 2016, 2017 Martin Krause <github@mkrause.info> [http://martinkr.github.io)](http://martinkr.github.io)
+Copyright (c) 2016, 2017, 2019 Martin Krause <github@mkrause.info> [http://martinkr.github.io)](http://martinkr.github.io)
 

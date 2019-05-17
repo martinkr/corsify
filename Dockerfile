@@ -17,4 +17,6 @@ EXPOSE 3000
 
 # run the startup script.
 # if none is defined, $ yarn start defaults to $ node server.js
-CMD [ "yarn", "start" ]
+#CMD [ "yarn", "start" ]
+CMD [ "tail", "-f" ,"/dev/null" ]
+
