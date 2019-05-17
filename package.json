@@ -43,7 +43,7 @@
     "request": "^2.82.0"
   },
   "devDependencies": {
-    "istanbul": "^0.4.5",
+    "nyc": "^14.1.1",
     "chai": "^4.1.2",
     "cssnano": "^4.0.0",
     "cssnano-preset-advanced": "^4.0.0",
