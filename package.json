@@ -13,9 +13,14 @@
     "nyc": "./node_modules/.bin/nyc --clean ./node_modules/.bin/mocha --exit",
     "report": "./node_modules/.bin/nyc report --reporter=lcov --reporter=html",
     "coverage": "./node_modules/.bin/nyc check-coverage --lines 100 --functions 100 --branches 100 --statements 100",
-    "test": "yarn nyc && yarn report && yarn coverage"
+    "test": "yarn nyc && yarn report && yarn coverage",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "engines" : { "node" : ">=8.4.0", "yarn":"^1.3.0" },
+  "engines": {
+    "node": ">=8.4.0",
+    "yarn": "^1.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/martinkr/corsify"
@@ -40,7 +45,8 @@
     "forever": "^2.0.0",
     "mustache": "^2.3.0",
     "mustache-express": "^1.2.5",
-    "request": "^2.82.0"
+    "request": "^2.82.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "nyc": "^14.1.1",
@@ -51,7 +57,10 @@
     "mocha": "^5.0.3",
     "nodemon": "^1.14.11",
     "postcss-cli": "^6.0.0",
-    "stylelint": "^10.0.0",
+ 
+    "stylelint": "^11.0.0",
+ 
     "supertest": "^3.0.0"
-  }
+  },
+  "snyk": true
 }

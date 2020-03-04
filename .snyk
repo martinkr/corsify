@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - stylelint > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - eslint > inquirer > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - mustache-express > async > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - stylelint > table > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - eslint > table > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - eslint > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/types > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-03T21:21:18.050Z'
