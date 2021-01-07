@@ -56,5 +56,5 @@ Requires ```nodejs```. Recomended: ```v8.4.0```, but it might work with older ve
 ## License
 Licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
-Copyright (c) 2016, 2017, 2019 Martin Krause <github@mkrause.info> [http://martinkr.github.io)](http://martinkr.github.io)
+Copyright (c) 2016, 2017, 2019 Martin Krause <github@mkrause.info> [http://martinkr.github.io](http://martinkr.github.io)
 

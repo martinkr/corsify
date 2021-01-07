@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -40,3 +40,40 @@ patch:
         patched: '2019-07-03T21:21:18.050Z'
     - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2019-07-03T21:21:18.050Z'
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - eslint > table > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > table > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T21:26:52.342Z'
