@@ -15,7 +15,7 @@
     "coverage": "./node_modules/.bin/nyc check-coverage --lines 100 --functions 100 --branches 100 --statements 100",
     "test": "yarn nyc && yarn report && yarn coverage",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "engines": {
     "node": ">=8.4.0",
@@ -46,7 +46,7 @@
     "mustache": "^2.3.0",
     "mustache-express": "^1.2.5",
     "request": "^2.82.0",
-    "snyk": "^1.189.0"
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "nyc": "^15.0.0",
@@ -54,7 +54,6 @@
     "cssnano": "^4.0.0",
     "cssnano-preset-advanced": "^4.0.0",
  
-  
     "nodemon": "^2.0.3",
    
       "mocha": "^7.1.1",
@@ -66,7 +65,7 @@
  
     "stylelint": "^13.0.0",
  
-    "supertest": "^3.0.0"
+     "supertest": "^3.0.0"
   },
   "snyk": true
 }
