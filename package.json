@@ -1,11 +1,11 @@
 {
   "name": "corsify",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "description": "A tiny transparent proxy. The benefit: it adds the CORS-headers! Why? It prevents Cross Domain Errors.",
   "main": "./server/main.js",
   "scripts": {
     "verify": "yarn run lint && yarn run test && echo \"verified $npm_package_name v$npm_package_version\" > ./VERSION.md && cat VERSION.md",
-    "lint": "./node_modules/.bin/eslint */*.js && ./node_modules/.bin/stylelint ./views/css/styles.css",
+    "lint": "./node_modules/.bin/eslint ./server/**/*.js && ./node_modules/.bin/stylelint ./views/css/styles.css",
     "build": "./node_modules/.bin/postcss ./views/css/styles.css > ./views/css/build.css",
     "prestart": "yarn run verify",
     "start": "NPM_CONFIG_PRODUCTION=false; NODE_ENV=production forever -o /dev/null -e /dev/null ./server/main.js",
@@ -53,22 +53,12 @@
     "chai": "^4.1.2",
     "cssnano": "^4.0.0",
     "cssnano-preset-advanced": "^4.0.0",
- 
     "postcss-cli": "^8.0.0",
- 
- 
- 
     "nodemon": "^2.0.3",
-   
-      "mocha": "^7.1.1",
+    "mocha": "^7.1.1",
     "eslint": "^6.0.0",
- 
-   
- 
- 
     "stylelint": "^13.0.0",
- 
-     "supertest": "^3.0.0"
+    "supertest": "^3.0.0"
   },
   "snyk": true
 }

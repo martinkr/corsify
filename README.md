@@ -3,7 +3,7 @@ A tiny transparent proxy. The benefit: it adds the CORS-headers! Why? It prevent
 
 Try it: [http://corsify.me](http://corsify.me)
 - Without CORS-headers: [http://shaky-library.surge.sh](http://shaky-library.surge.sh)
-- With CORS-headers aka "corsyfied": [http://corsify.me/http://shaky-library.surge.sh](http://corsify.me/http://shaky-library.surge.sh)
+- With CORS-headers aka "corsyfied": [http://localhost:3001/http://shaky-library.surge.sh](http://localhost:3001/http://shaky-library.surge.sh)
 
 ## CORS-i-fy? What is this all about?
  > Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources (e.g. fonts) on a web page to be requested from another domain outside the domain from which the resource originated. [https://en.wikipedia.org/wiki/Cross-origin_resource_sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
@@ -13,14 +13,14 @@ Your script from http://rebel-mother.surge.sh makes an AJAX-request to http://sh
 You see the infamous "XMLHttpRequest cannot load http://shaky-library.surge.sh. Origin http://rebel-mother.surge.sh is not allowed by Access-Control-Allow-Origin." error message.
 
 ## corsify to the rescue!
-Change your AJAX-Request from http://shaky-library.surge.sh to http://corsify.me/http://shaky-library.surge.sh. Et voilá: no more errors.
+Change your AJAX-Request from http://shaky-library.surge.sh to http://localhost:3001/http://shaky-library.surge.sh. Et voilá: no more errors.
 
 ## So simple?
 For now: yes.
-But please, talk to the http://shaky-library.surge.sh's admin. I highly doubt you want to route all your requests through a third-party-service. Privacy and security, you know…
+
 
 ## Roll our own!
-You can just ``` $ git clone https://github.com/martinkr/corsify.git``` the repository and fire up your own local instance.
+``` $ git clone https://github.com/martinkr/corsify.git``` the repository and fire up your own local instance with docker or plain node.js.
 
 ### With the included Dockerfile
 Fast and clean. No additional files on your machine.
@@ -56,5 +56,5 @@ Requires ```nodejs```. Recomended: ```v8.4.0```, but it might work with older ve
 ## License
 Licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
-Copyright (c) 2016, 2017, 2019 Martin Krause <github@mkrause.info> [http://martinkr.github.io](http://martinkr.github.io)
+Copyright (c) 2016 - 2021 Martin Krause <github@mkrause.info> [http://martinkr.github.io](http://martinkr.github.io)
 
