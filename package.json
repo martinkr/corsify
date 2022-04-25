@@ -42,7 +42,7 @@
   "dependencies": {
     "compression": "^1.7.1",
     "express": "^4.16.0",
-    "forever": "^2.0.0",
+    "forever": "^4.0.3",
     "mustache": "^2.3.0",
     "mustache-express": "^1.2.5",
     "request": "^2.82.0",
