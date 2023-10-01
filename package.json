@@ -51,13 +51,13 @@
   "devDependencies": {
     "nyc": "^15.0.0",
     "chai": "^4.1.2",
-    "cssnano": "^4.0.0",
-    "cssnano-preset-advanced": "^4.0.0",
+    "cssnano": "^5.0.0",
+    "cssnano-preset-advanced": "^5.0.0",
     "postcss-cli": "^8.0.0",
     "nodemon": "^2.0.3",
     "mocha": "^7.1.1",
     "eslint": "^6.0.0",
-    "stylelint": "^13.0.0",
+    "stylelint": "^14.0.0",
     "supertest": "^3.0.0"
   },
   "snyk": true
