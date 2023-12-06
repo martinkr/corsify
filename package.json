@@ -55,7 +55,7 @@
     "cssnano-preset-advanced": "^4.0.0",
     "postcss-cli": "^8.0.0",
     "nodemon": "^2.0.3",
-    "mocha": "^7.1.1",
+    "mocha": "^8.3.0",
     "eslint": "^6.0.0",
     "stylelint": "^13.0.0",
     "supertest": "^3.0.0"
